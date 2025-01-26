@@ -16,10 +16,10 @@ clear
     echo "${RED}YouTube : https://youtube.com/@snipavn205"
     echo "------------------------"
     clear
-    echo -e "Đang tải xuống neofetch để xem thông số của máy bạn"
+    echo "Đang tải xuống neofetch để xem thông số của máy bạn"
     apt install neofetch
     clear
-    echo -e "Cho bạn xem thông số máy của bạn trong 7s"
+    echo "Cho bạn xem thông số máy của bạn trong 7s"
     sleep 1
     neofetch
     sleep 7
