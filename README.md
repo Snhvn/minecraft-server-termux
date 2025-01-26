@@ -22,3 +22,4 @@ wget https://github.com/Snhvn/minecraft-server-termux/raw/refs/heads/main/setup-
 ```
 # UBUNTU/DEBIAN
 (Lệnh thứ 2 và lệnh thứ 3 của termux đều cài đc trên ubuntu/debian)
+Có thể cài đc trên github codespace
