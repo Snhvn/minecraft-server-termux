@@ -8,6 +8,7 @@ echo "SNIPA VN"
 echo "${RED}YouTube : https://youtube.com/@snipavn205"
 echo "------------------------"
 echo "Tiến Hành cài ubuntu trên termux"
+echo "Chờ 3s để bắt đầu cài"
 clear
 echo "Đang tải xuống ubuntu"
 pkg update -y
