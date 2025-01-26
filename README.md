@@ -16,3 +16,7 @@ Lệnh thứ 2 (Nếu đã vào chế độ ubuntu):
 ```
 wget https://github.com/Snhvn/minecraft-server-termux/raw/refs/heads/main/setup-termux-minecraft1.sh && chmod +x setup-termux-minecraft1.sh && ./setup-termux-minecraft1.sh && rm setup-termux-minecraft1.sh
 ```
+Lệnh thứ 3 (Mở session mới trên termux và vào session mới,vào chế độ ubuntu rồi hãy nhập lệnh thứ 3):
+```
+wget https://github.com/Snhvn/minecraft-server-termux/raw/refs/heads/main/setup-termux-playit.sh && chmod +x setup-termux-playit.sh && ./setup-termux-playit.sh && rm setup-termux-playit.sh
+```
