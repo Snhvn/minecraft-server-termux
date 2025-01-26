@@ -18,6 +18,8 @@ apt update -y
 apt install sudo
 apt install curl -y
 curl -o setup-termux-minecraft.sh https://github.com/Snhvn/minecraft-server-termux/raw/refs/heads/main/setup-termux-minecraft.sh
+exit
+clear
 echo "Đã tải xong tệp setup-minecraft"
 sleep 1
 clear
@@ -28,3 +30,5 @@ echo "------------------------"
 echo "Đã tải xong"
 echo "Muốn vào ubuntu nhập lệnh 'proot-distro login ubuntu'"
 echo "Muốn thoát chế độ ubuntu nhập lệnh 'exit'để quay lại về termux"
+echo "Muốn cài Minecraft server thì phải trong chế độ ubuntu mới cài được"
+echo "Nếu bạn ở trong chế độ ubuntu thì nhập lệnh này để tải Minecraft 'sudo ./setup-termux-minecraft.sh'"
