@@ -1,4 +1,5 @@
 #!/bin/bash
+clear
 RED='\033[0;31m'
 echo "------------------------"
 echo "SNIPA VN"
@@ -9,8 +10,7 @@ sleep 2
 apt update -y
 apt install sudo
 pkg install wget
-wget https://github.com/Snhvn/minecraft-server-termux/raw/refs/heads/main/setup-termux-minecraft.sh
-exit
+wget https://github.com/Snhvn/minecraft-server-termux/raw/refs/heads/main/setup-termux-minecraft.sh && chmod +x setup-termux-minecraft.sh
 clear
 echo "Đã tải xong tệp setup-minecraft"
 sleep 1
