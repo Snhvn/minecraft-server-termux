@@ -26,9 +26,7 @@ clear
     echo "Đã Xong giờ cài nhé"
     clear
     echo "Chờ đang tải xuống java......"
-    echo -e "${GREEN}Nhập Java là 17 hoặc 21"
-    read java
-    apt install openjdk-$java
+    sudo apt install default-jdk
     echo " Nếu đã cài đặt java thì sẽ 0 có gì"
     echo "Cài Minecraft......."
     echo -e "${YELLOW}Nhập Phiên Bản"
