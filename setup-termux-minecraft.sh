@@ -37,11 +37,15 @@ clear
     read buildpapermc
     echo -e "Nhập số ram của bạn tùy vào máy của bạn"
     read ram
-    apt install wget -y 
+    apt install wget -y
+    mkdir server-minecraft
+    cd server-minecraft
     wget https://api.papermc.io/v2/projects/paper/versions/$versionpapermc/builds/$buildpapermc/downloads/paper-$versionpapermc-$buildpapermc.jar
+    cd
     clear
     echo "------------------------"
     echo "SNIPA VN"
     echo "${RED}YouTube : https://youtube.com/@snipavn205"
     echo "------------------------"
-    echo "Vui lòng nhập java -Xmx1024M -Xms1024M -jar paper-$versionpapermc-$buildpapermc.jar nogui"
+    echo "Nếu chưa vào thư mục thì nhập cd server-minecraft
+    echo "Vui lòng nhập java -Xmx$ramM -Xms$ramM -jar paper-$versionpapermc-$buildpapermc.jar nogui"
