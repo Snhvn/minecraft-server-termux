@@ -8,7 +8,6 @@ echo "------------------------"
 echo "Tiến Hành cài ubuntu trên termux"
 clear
 echo "Đang tải xuống ubuntu"
-apt install curl -y
 pkg update -y
 pkg install proot-distro
 proot-distro install ubuntu
