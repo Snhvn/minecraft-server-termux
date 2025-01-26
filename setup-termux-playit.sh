@@ -13,3 +13,4 @@ echo "deb [signed-by=/etc/apt/trusted.gpg.d/playit.gpg] https://playit-cloud.git
 sudo apt update
 sudo apt install playit
 echo "Đã tải xong vui lòng nhập 'playit setup'để lấy đường link claim"
+echo "Sau khi bạn tạo agents xong rồi add tunnel nhé trên video có hướng dẫn, add tunnel rồi thì quay lại Termux nhập 'playit' để mở tunnel"
