@@ -13,6 +13,14 @@ pkg update -y
 pkg install proot-distro
 proot-distro install ubuntu
 clear
+proot-distro login ubuntu
+apt update -y
+apt install sudo
+apt install curl -y
+curl -o setup-termux-minecraft.sh https://github.com/Snhvn/minecraft-server-termux/raw/refs/heads/main/setup-termux-minecraft.sh
+echo "Đã tải xong tệp setup-minecraft"
+sleep 1
+clear
 echo "------------------------"
 echo "SNIPA VN"
 echo "${RED}YouTube : https://youtube.com/@snipavn205"
