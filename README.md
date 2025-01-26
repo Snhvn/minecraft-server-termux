@@ -14,5 +14,5 @@ pkg install wget && wget https://github.com/Snhvn/minecraft-server-termux/raw/re
 ```
 Lệnh thứ 2 (Nếu đã vào chế độ ubuntu):
 ```
-wget https://github.com/Snhvn/minecraft-server-termux/raw/refs/heads/main/setup-termux-minecraft1.sh && chmod +x setup-termux-minecraft1.sh && sudo ./setup-termux-minecraft1.sh && rm setup-termux-minecraft1.sh
+wget https://github.com/Snhvn/minecraft-server-termux/raw/refs/heads/main/setup-termux-minecraft1.sh && chmod +x setup-termux-minecraft1.sh && ./setup-termux-minecraft1.sh && rm setup-termux-minecraft1.sh
 ```
