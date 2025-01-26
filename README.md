@@ -1,5 +1,8 @@
 # minecraft-server-termux
 ________________________________
-echo "SNIPA VN"
-echo "${RED}YouTube : https://youtube.com/@snipavn205"
+SNIPA VN
+YouTube :
+https://youtube.com/@snipavn205
+Discord :
+https://dsc.gg/servertipacvn
 ________________________________
