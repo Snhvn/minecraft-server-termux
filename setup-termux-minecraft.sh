@@ -7,9 +7,8 @@ echo "------------------------"
 echo "SNIPA VN"
 echo "${RED}YouTube : https://youtube.com/@snipavn205"
 echo "------------------------"
-
 echo "Hiện Tại chỉ có PaperMC, nếu có thêm phần mềm khác mình sẽ cập nhật"
-
+sleep 3
 clear
     echo "------------------------"
     echo "SNIPA VN"
@@ -17,10 +16,11 @@ clear
     echo "------------------------"
     clear
     echo "Đang tải xuống neofetch để xem thông số của máy bạn"
+    sleep 2
     apt install neofetch
     clear
     echo "Cho bạn xem thông số máy của bạn trong 7s"
-    sleep 1
+    sleep 2
     neofetch
     sleep 7
     echo "Đã Xong giờ cài nhé"
