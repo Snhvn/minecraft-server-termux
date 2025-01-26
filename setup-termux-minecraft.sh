@@ -47,5 +47,5 @@ clear
     echo "SNIPA VN"
     echo "${RED}YouTube : https://youtube.com/@snipavn205"
     echo "------------------------"
-    echo "Nếu chưa vào thư mục thì nhập cd server-minecraft
+    echo "Nếu chưa vào thư mục thì nhập cd server-minecraft"
     echo "Vui lòng nhập java -Xmx$ramM -Xms$ramM -jar paper-$versionpapermc-$buildpapermc.jar nogui"
