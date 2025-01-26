@@ -1,0 +1,22 @@
+#!/bin/bash
+clear
+RED='\033[0;31m'
+echo "------------------------"
+echo "SNIPA VN"
+echo "${RED}YouTube : https://youtube.com/@snipavn205"
+echo "------------------------"
+echo "Tiến Hành cài ubuntu trên termux"
+clear
+echo "Đang tải xuống ubuntu"
+apt install curl -y
+pkg update -y
+pkg install proot-distro
+proot-distro install ubuntu
+clear
+echo "------------------------"
+echo "SNIPA VN"
+echo "${RED}YouTube : https://youtube.com/@snipavn205"
+echo "------------------------"
+echo "Đã tải xong"
+echo "Muốn vào ubuntu nhập lệnh 'proot-distro login ubuntu'"
+echo "Muốn thoát chế độ ubuntu nhập lệnh 'exit'để quay lại về termux"
