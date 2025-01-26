@@ -6,6 +6,7 @@ echo "SNIPA VN"
 echo "${RED}YouTube : https://youtube.com/@snipavn205"
 echo "------------------------"
 echo "Lưu ý vào chế độ ubuntu rồi cài"
+echo "Chờ 3s để bắt đầu cài"
 clear
 echo "Đang tải xuống playit.gg"
 curl -SsL https://playit-cloud.github.io/ppa/key.gpg | gpg --dearmor | sudo tee /etc/apt/trusted.gpg.d/playit.gpg >/dev/null
