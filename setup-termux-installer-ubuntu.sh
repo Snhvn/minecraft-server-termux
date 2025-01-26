@@ -1,5 +1,6 @@
 #!/bin/bash
 clear
+termux-setup-storage
 RED='\033[0;31m'
 echo "------------------------"
 echo "SNIPA VN"
@@ -15,8 +16,8 @@ clear
 proot-distro login ubuntu
 apt update -y
 apt install sudo
-apt install curl -y
-curl -o setup-termux-minecraft.sh https://github.com/Snhvn/minecraft-server-termux/raw/refs/heads/main/setup-termux-minecraft.sh
+pkg install wget
+wget https://github.com/Snhvn/minecraft-server-termux/raw/refs/heads/main/setup-termux-minecraft.sh
 exit
 clear
 echo "Đã tải xong tệp setup-minecraft"
