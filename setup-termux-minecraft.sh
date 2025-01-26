@@ -16,10 +16,10 @@ clear
     echo "${RED}YouTube : https://youtube.com/@snipavn205"
     echo "------------------------"
     clear
-    echo -e "${RED}Đang tải xuống neofetch để xem thông số của máy bạn"
+    echo -e "Đang tải xuống neofetch để xem thông số của máy bạn"
     apt install neofetch
     clear
-    echo -e "${RED}Cho bạn xem thông số máy của bạn trong 7s"
+    echo -e "Cho bạn xem thông số máy của bạn trong 7s"
     sleep 1
     neofetch
     sleep 7
@@ -46,4 +46,4 @@ clear
     echo "${RED}YouTube : https://youtube.com/@snipavn205"
     echo "------------------------"
     echo "Nếu chưa vào thư mục thì nhập cd server-minecraft"
-    echo "Vui lòng nhập java -Xmx$ramM -Xms$ramM -jar paper-$versionpapermc-$buildpapermc.jar nogui"
+    echo "Vui lòng nhập java -Xmx$ram M -Xms$ram M -jar paper-$versionpapermc-$buildpapermc.jar nogui"
