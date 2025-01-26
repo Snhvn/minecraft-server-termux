@@ -23,3 +23,8 @@ wget https://github.com/Snhvn/minecraft-server-termux/raw/refs/heads/main/setup-
 # UBUNTU/DEBIAN
 (Lệnh thứ 2 và lệnh thứ 3 của termux đều cài đc trên ubuntu/debian)
 Có thể cài đc trên github codespace
+- Lệnh Thứ 3 của Termux thì là phải mở session mới, nhưng do ubuntu k có nên phải dùng package tmux
++ Tải Tmux : sudo apt install tmux
++ Tạo Session Tmux : tmux new -s <tên>
++ Vào Session Tmux : tmux a -t <tên đặt>
++ Thoát Session Tmux : Ctrl + B + D
