@@ -17,7 +17,8 @@ clear
     clear
     echo "Đang tải xuống neofetch để xem thông số của máy bạn"
     sleep 2
-    apt install neofetch
+    apt update -y && apt install sudo
+    sudo apt install neofetch
     clear
     echo "Cho bạn xem thông số máy của bạn trong 7s"
     sleep 2
