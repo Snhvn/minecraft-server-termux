@@ -10,7 +10,9 @@ sleep 3
 clear
 echo "   BẮT ĐẦU CÀI   "
 echo "   TẢI XONG NHẬP MAIL"
+apt install curl -y
 curl https://get.telebit.io/ | bash
+clear
 echo "------------------------"
 echo "SNIPA VN"
 echo "YouTube : https://youtube.com/@snipavn205"
