@@ -18,7 +18,11 @@ apt install wget -y && wget https://github.com/Snhvn/minecraft-server-termux/raw
 ```
 Lệnh thứ 3 ,cài playit.gg(Mở session mới trên termux và vào session mới,vào chế độ ubuntu rồi hãy nhập lệnh thứ 3):
 ```
-wget https://github.com/Snhvn/minecraft-server-termux/raw/refs/heads/main/setup-termux-playit.sh && chmod +x setup-termux-playit.sh && ./setup-termux-playit.sh && rm setup-termux-playit.sh
+apt install wget -y && wget https://github.com/Snhvn/minecraft-server-termux/raw/refs/heads/main/setup-termux-playit.sh && chmod +x setup-termux-playit.sh && ./setup-termux-playit.sh && rm setup-termux-playit.sh
+```
+- Lệnh thứ 4, cài telebit(Nếu đã vào chế độ ubuntu)
+```
+apt install wget -y && wget https://github.com/Snhvn/minecraft-server-termux/raw/refs/heads/main/setup-telebit-ubuntu.sh && chmod +x setup-telebit-ubuntu.sh && ./setup-telebit-ubuntu.sh && rm setup-telebit-ubuntu.sh
 ```
 # UBUNTU/DEBIAN
 (Lệnh thứ 2 và lệnh thứ 3 của termux đều cài đc trên ubuntu/debian)
