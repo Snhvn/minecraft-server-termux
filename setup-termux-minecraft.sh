@@ -17,8 +17,8 @@ clear
     clear
     echo "Đang tải xuống neofetch để xem thông số của máy bạn"
     sleep 2
-    apt update -y && apt install sudo
-    sudo apt install neofetch
+    apt update -y && apt install sudo -y && apt install nano -y
+    sudo apt install neofetch -y
     clear
     echo "Cho bạn xem thông số máy của bạn trong 7s"
     sleep 2
@@ -47,4 +47,4 @@ clear
     echo "${RED}YouTube : https://youtube.com/@snipavn205"
     echo "------------------------"
     echo "Nếu chưa vào thư mục thì nhập cd server-minecraft"
-    echo "Vui lòng nhập java -Xmx$ram M -Xms$ram M -jar paper-$versionpapermc-$buildpapermc.jar nogui"
+    echo "Vui lòng nhập 'java -Xmx${ram}M -Xms${ram}M -jar paper-$versionpapermc-$buildpapermc.jar nogui'"
