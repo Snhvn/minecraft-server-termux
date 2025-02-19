@@ -22,7 +22,7 @@ apt install wget -y && wget https://github.com/Snhvn/minecraft-server-termux/raw
 ```
 - Lệnh thứ 4, cài telebit(Nếu đã vào chế độ ubuntu)
 ```
-apt install wget -y && wget https://github.com/Snhvn/minecraft-server-termux/raw/refs/heads/main/setup-telebit-ubuntu.sh && chmod +x setup-telebit-ubuntu.sh && ./setup-telebit-ubuntu.sh && rm setup-telebit-ubuntu.sh
+apt install curl -y && curl https://get.telebit.io/ | bash
 ```
 # UBUNTU/DEBIAN
 (Lệnh thứ 2 và lệnh thứ 3 của termux đều cài đc trên ubuntu/debian)
