@@ -14,7 +14,7 @@ pkg install wget && wget https://github.com/Snhvn/minecraft-server-termux/raw/re
 ```
 Lệnh thứ 2 (Nếu đã vào chế độ ubuntu):
 ```
-wget https://github.com/Snhvn/minecraft-server-termux/raw/refs/heads/main/setup-termux-minecraft1.sh && chmod +x setup-termux-minecraft1.sh && ./setup-termux-minecraft1.sh && rm setup-termux-minecraft1.sh
+apt install wget -y && wget https://github.com/Snhvn/minecraft-server-termux/raw/refs/heads/main/setup-termux-minecraft1.sh && chmod +x setup-termux-minecraft1.sh && ./setup-termux-minecraft1.sh && rm setup-termux-minecraft1.sh
 ```
 Lệnh thứ 3 ,cài playit.gg(Mở session mới trên termux và vào session mới,vào chế độ ubuntu rồi hãy nhập lệnh thứ 3):
 ```
@@ -28,3 +28,4 @@ Có thể cài đc trên github codespace
 + Tạo Session Tmux : tmux new -s <tên>
 + Vào Session Tmux : tmux a -t <tên đặt>
 + Thoát Session Tmux : Ctrl + B + D
+!! Lưu ý nếu dùng thuộc kiểu vps clone ảo có dạng tmate thì nó sẽ giống như tmux 
