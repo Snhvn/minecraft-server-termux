@@ -17,7 +17,7 @@ clear
     clear
     echo "Đang tải xuống neofetch để xem thông số của máy bạn"
     sleep 2
-    apt update -y && apt install sudo -y && apt install nano -y
+    apt update -y && apt install sudo nano -y
     sudo apt install neofetch -y
     clear
     echo "Cho bạn xem thông số máy của bạn trong 7s"
@@ -27,7 +27,7 @@ clear
     echo "Đã Xong giờ cài nhé"
     clear
     echo "Chờ đang tải xuống java......"
-    sudo apt install openjdk-21-jdk
+    sudo apt install openjdk-21-jdk -y
     echo " Nếu đã cài đặt java thì sẽ 0 có gì"
     echo "Cài Minecraft......."
     echo -e "${YELLOW}Nhập Phiên Bản"
